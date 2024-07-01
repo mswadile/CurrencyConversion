@@ -23,7 +23,7 @@ $success = true;
 foreach($curr as $row){
     $currCde = $row['code'];
     $currCdeSmall = strtolower($row['code']);
-    $url = "https://floatrates.com/daily/$currCdeSmall.json";
+    $url = $config['rates_url'] . $currCdeSmall . $config['rates_file_extension'];
 
     // Fetch exchange rates for the current currency
     $json = @file_get_contents($url);
