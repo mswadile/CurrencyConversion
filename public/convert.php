@@ -28,3 +28,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 } else {
     include __DIR__ . '/../templates/convert.html';
 }
+
+?>
