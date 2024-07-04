@@ -1,0 +1,18 @@
+body, html {
+    font-family: Arial, sans-serif;
+    background:#708090;
+    color:#ffffff;
+}
+.conversion-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.conversion-table th, .conversion-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+.conversion-table th {
+    background-color: #4CAF50;
+    color: white;
+}
