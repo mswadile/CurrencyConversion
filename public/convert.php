@@ -1,5 +1,5 @@
 <?php
-//session_start();
+session_start();
 require_once __DIR__ . '/../config/config.php';
 require_once __DIR__ . '/../src/CurrencyConverter.php';
 
@@ -11,12 +11,10 @@ $pdo = new PDO(
     $config['db']['password']
 );
 
-/*
 if (!isset($_SESSION['user']) && !isset($_COOKIE['user'])) {
     header('Location: login.php');
     exit();
 }
-    */
 
 $converter = new CurrencyConverter($pdo);
 $currCde = $converter -> getCodes();
