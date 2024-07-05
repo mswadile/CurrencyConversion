@@ -17,6 +17,7 @@ This web application allows users to convert currencies. It supports:
 - Convert currency.
 
 ## Project Structure
+```
 project-root/
 │
 ├── public/
@@ -45,7 +46,7 @@ project-root/
 |
 |___ cron.php
 |___ currency_app.sql
-
+```
 
 ## Requirements
 
